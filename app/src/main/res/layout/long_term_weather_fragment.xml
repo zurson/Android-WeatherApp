@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_info_frame"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_day_1"
+                style="@style/long_term_forecast_weekday_style"
+                android:text="Dzisiaj"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_day_2"
+                style="@style/long_term_forecast_weekday_style"
+                android:text="Jutro"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_day_3"
+                style="@style/long_term_forecast_weekday_style"
+                android:text="So"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_day_4"
+                style="@style/long_term_forecast_weekday_style"
+                android:text="Nd"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_day_5"
+                style="@style/long_term_forecast_weekday_style"
+                android:text="Pon"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/long_term_weather_icon_day_1"
+                style="@style/long_term_forecast_icon_style"
+                android:src="@drawable/wind_speed" />
+
+            <ImageView
+                android:id="@+id/long_term_weather_icon_day_2"
+                style="@style/long_term_forecast_icon_style"
+                android:src="@drawable/wind_speed" />
+
+            <ImageView
+                android:id="@+id/long_term_weather_icon_day_3"
+                style="@style/long_term_forecast_icon_style"
+                android:src="@drawable/wind_speed" />
+
+            <ImageView
+                android:id="@+id/long_term_weather_icon_day_4"
+                style="@style/long_term_forecast_icon_style"
+                android:src="@drawable/wind_speed" />
+
+            <ImageView
+                android:id="@+id/long_term_weather_icon_day_5"
+                style="@style/long_term_forecast_icon_style"
+                android:src="@drawable/wind_speed" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_description_day_1"
+                style="@style/long_term_forecast_description_style"
+                android:text="Deszcz"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_description_day_2"
+                style="@style/long_term_forecast_description_style"
+                android:text="Deszcz ulewny"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_description_day_3"
+                style="@style/long_term_forecast_description_style"
+                android:text="Zachmurzenie"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_description_day_4"
+                style="@style/long_term_forecast_description_style"
+                android:text="Zachmurzenie"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_description_day_5"
+                style="@style/long_term_forecast_description_style"
+                android:text="Zachmurzenie"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_temperature_day_1"
+                style="@style/long_term_forecast_temperatures_style"
+                android:text="10°"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_temperature_day_2"
+                style="@style/long_term_forecast_temperatures_style"
+                android:text="11°"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_temperature_day_3"
+                style="@style/long_term_forecast_temperatures_style"
+                android:text="12°"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_temperature_day_4"
+                style="@style/long_term_forecast_temperatures_style"
+                android:text="13°"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+            <com.example.weatherapp.Utils.SizeAwareTextView
+                android:id="@+id/long_term_weather_temperature_day_5"
+                style="@style/long_term_forecast_temperatures_style"
+                android:text="14°"
+                app:text_group="@array/long_term_weather_text_views_ids_array" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

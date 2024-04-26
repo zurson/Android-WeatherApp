@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="long_term_weather_text_views_ids_array">
+        <item>@id/long_term_weather_day_1</item>
+        <item>@id/long_term_weather_day_2</item>
+        <item>@id/long_term_weather_day_3</item>
+        <item>@id/long_term_weather_day_4</item>
+        <item>@id/long_term_weather_day_5</item>
+
+        <item>@id/long_term_weather_description_day_1</item>
+        <item>@id/long_term_weather_description_day_2</item>
+        <item>@id/long_term_weather_description_day_3</item>
+        <item>@id/long_term_weather_description_day_4</item>
+        <item>@id/long_term_weather_description_day_5</item>
+
+        <item>@id/long_term_weather_temperature_day_1</item>
+        <item>@id/long_term_weather_temperature_day_2</item>
+        <item>@id/long_term_weather_temperature_day_3</item>
+        <item>@id/long_term_weather_temperature_day_4</item>
+        <item>@id/long_term_weather_temperature_day_5</item>
+
+    </array>
+
+    <array name="long_term_weather_image_views_ids_array">
+        <item>@id/long_term_weather_icon_day_1</item>
+        <item>@id/long_term_weather_icon_day_2</item>
+        <item>@id/long_term_weather_icon_day_3</item>
+        <item>@id/long_term_weather_icon_day_4</item>
+        <item>@id/long_term_weather_icon_day_5</item>
+    </array>
+
+</resources>
